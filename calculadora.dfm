@@ -1,0 +1,134 @@
+object frmCalculadora: TfrmCalculadora
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Calculadora'
+  ClientHeight = 395
+  ClientWidth = 178
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 10
+    Width = 52
+    Height = 19
+    Caption = 'Num 1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 70
+    Width = 52
+    Height = 19
+    Caption = 'Num 2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object txtN1: TEdit
+    Left = 8
+    Top = 35
+    Width = 161
+    Height = 29
+    TabOrder = 0
+  end
+  object txtN2: TEdit
+    Left = 8
+    Top = 95
+    Width = 161
+    Height = 25
+    TabOrder = 1
+  end
+  object btnSomar: TButton
+    Left = 8
+    Top = 137
+    Width = 161
+    Height = 32
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnSomarClick
+  end
+  object btnSubtrair: TButton
+    Left = 8
+    Top = 183
+    Width = 161
+    Height = 33
+    Caption = '-'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnSubtrairClick
+  end
+  object btnMult: TButton
+    Left = 8
+    Top = 230
+    Width = 161
+    Height = 35
+    Caption = '*'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = btnMultClick
+  end
+  object btnDiv: TButton
+    Left = 8
+    Top = 278
+    Width = 161
+    Height = 35
+    Caption = '/'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnDivClick
+  end
+  object BitBtn1: TBitBtn
+    Left = 8
+    Top = 335
+    Width = 161
+    Height = 35
+    Caption = 'Fechar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = BitBtn1Click
+  end
+end
